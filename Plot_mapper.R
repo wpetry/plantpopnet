@@ -12,7 +12,7 @@ library(cowplot)
 ###########################################################
 ## Read in data, then clean for plotting
 ###########################################################
-census.dat<-read.xls("~/Documents/Plantago demography/Census data/2015 data & photos/Individual plant census 2015.xls",sheet="MERGED",na.strings=c("-99999",""))
+census.dat<-read.xls("~/Dropbox/PlantPopNet Data/2015 data & photos/Individual plant census 2015.xls",sheet="MERGED",na.strings=c("-99999",""))
 
 ## prepare data for plotting (each row is a unique tag with coordinates and total leaf number)
 census.dat %<>%
